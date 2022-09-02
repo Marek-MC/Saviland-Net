@@ -1,0 +1,41 @@
+.navigation {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    content: 0px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation header {
+    color: springgreen;
+    padding: 0px 56px 0px 0px;
+}
+
+.navigation svg {
+    color: springgreen;
+}
+
+.navigation svg:hover {
+    color: crimson;
+}
+
+.navigation ul {
+    display: inline;
+}
+
+.navigation ul li:hover {
+    color: crimson;
+}
+
+.navigation ul li {
+    color: springgreen;
+
+    display: inline-block;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
