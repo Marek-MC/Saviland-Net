@@ -1,5 +1,5 @@
 .navigation {
-    margin: 0px;
+    margin: 18px 0px 0px 0px;
     border: 0px;
     padding: 0px;
     content: 0px;
@@ -14,17 +14,21 @@
     color: springgreen;
     padding: 0px 56px 0px 0px;
 }
+.navigation header:hover {
+    color: crimson;
+}
 
-.navigation svg {
+/* .navigation svg {
     color: springgreen;
 }
 
 .navigation svg:hover {
     color: crimson;
-}
+} */
 
 .navigation ul {
     display: inline;
+    
 }
 
 .navigation ul li:hover {
@@ -39,3 +43,4 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+

@@ -1,6 +1,7 @@
-import Navigation from "./components/navigation.js"
-
 import styles from '../styles/registry.module.css'
+
+import Navigation from "./components/navigation"
+import LoginForm from './components/loginForm'
 
 export default function Registry() {
   return (
@@ -12,7 +13,9 @@ export default function Registry() {
 
         <h1>Register</h1>
 
-        <p>
+        {/* <LoginForm /> */}
+
+        {/* <p>
           Select your Username and Password.
         </p>
 
@@ -28,7 +31,7 @@ export default function Registry() {
 
         <form>
           <input placeholder="username" /> <input placeholder="password" />
-        </form>
+        </form> */}
 
 
 
