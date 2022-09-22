@@ -3,11 +3,9 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 // import Image from 'next/image'
 
-// import rootReducer from '../redux/reducers/_root.reducer'
-// import rootSaga from '../redux/sagas/_root.saga'
-// import { Provider } from 'react-redux'
-
 import Navigation from "./components/navigation.js"
+import WelcomeMessage from './components/welcomeMessage'
+import CoinClicker from './components/coinClicker'
 
 
 
@@ -24,25 +22,6 @@ class Home extends Component {
 
   rainbow = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
 
-  handleInputChangeFor = (propertyName) => (event) => {
-    this.setState({
-      [propertyName]: event.target.value,
-    })
-  }
-
-  addOneCookie = () => {
-    this.setState(prevState => {
-      return { cookies: prevState.cookies + 1, color: Math.random(this.rainbow) }
-    })
-    console.log("You got a cookie.")
-    // How to change the state color to a random color from the rainbow array.
-  }
-
-  changeCounterColor = () => {
-    this.setState(prevState => {
-      return {color: "blue"}
-    })
-  }
 
 
   render() {
@@ -60,12 +39,9 @@ class Home extends Component {
 
           <h1>Saviland Net</h1>
 
+          <WelcomeMessage />
 
-          <div id="cookie-clicker"
-            style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-            <button onClick={this.addOneCookie}>🍪</button>
-            <p style={{ color: this.state.color }}>{this.state.cookies}</p>
-          </div>
+          <CoinClicker />
 
 
 
