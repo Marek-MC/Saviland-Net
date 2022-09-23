@@ -1,14 +1,15 @@
 import Navigation from "./components/navigation.js"
 
-import styles from '../styles/chatspace.module.css'
+import styles from '../styles/Home.module.css'
+
 
 export default function Registry() {
   return (
-    <div className={null}>
+    <div className={styles.container}>
 
       <Navigation />
 
-      <main className={null}>
+      <main className={null} style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 
         <h1>Chatspace</h1>
 

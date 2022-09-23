@@ -1,42 +1,23 @@
-import styles from '../styles/registry.module.css'
-
 import Navigation from "./components/navigation"
 import LoginForm from './components/loginForm'
+import RegisterForm from "./components/registerForm"
+
+import styles from '../styles/Home.module.css'
+
 
 export default function Registry() {
   return (
-    <div className={null}>
+    <div className={styles.container}>
 
       <Navigation />
 
-      <main className={styles.registry}>
+      <main className={styles.registry} style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 
-        <h1>Register</h1>
+        <h1>Registry</h1>
 
-        {/* <LoginForm /> */}
+        <LoginForm />
 
-        {/* <p>
-          Select your Username and Password.
-        </p>
-
-        <form>
-          <input placeholder="username" /> <input placeholder="password" />
-        </form>
-
-        <h1>Login</h1>
-
-        <p>
-          If you are already registered, login here.
-        </p>
-
-        <form>
-          <input placeholder="username" /> <input placeholder="password" />
-        </form> */}
-
-
-
-
-
+        <RegisterForm />
 
       </main>
 

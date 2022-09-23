@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-// import Image from 'next/image'
 
 import Navigation from "./components/navigation.js"
 import WelcomeMessage from './components/welcomeMessage'
-import CoinClicker from './components/coinClicker'
-
-
 
 class Home extends Component {
 
@@ -21,8 +17,6 @@ class Home extends Component {
   }
 
   rainbow = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
-
-
 
   render() {
     return (
@@ -40,15 +34,6 @@ class Home extends Component {
           <h1>Saviland Net</h1>
 
           <WelcomeMessage />
-
-          <CoinClicker />
-
-
-
-
-
-
-
 
         </main>
 
