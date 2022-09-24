@@ -13,7 +13,9 @@ export default function registerForm() {
                 </p>
 
                 <form>
-                    <input placeholder="username" /> <input placeholder="password" />
+                    <input placeholder="username" />
+                    <br /> <br />
+                    <input placeholder="password" />
                 </form>
 
             </main>
