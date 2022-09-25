@@ -1,25 +1,30 @@
+import { Component } from 'react'
+
+class RegisterForm extends Component {
 
 
-export default function registerForm() {
-    return (
-        <div className={null}>
+    render() {
+        return (
+            <div>
 
-            <main className={null} style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                <main style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 
-                <h1>Register</h1>
+                    <h1>Register</h1>
 
-                <p>
-                    Register a new account with only a username and a password.
-                </p>
+                    <p>
+                        Register for a fresh account with just a username and password.
+                    </p>
 
-                <form>
-                    <input placeholder="username" />
-                    <br /> <br />
-                    <input placeholder="password" />
-                </form>
-
-            </main>
-
-        </div>
-    )
+                    <form>
+                        <input placeholder="username" />
+                        <br /> <br />
+                        <input placeholder="password" />
+                    </form>
+                    
+                </main>
+            </div>
+        )
+    }
 }
+
+export default RegisterForm

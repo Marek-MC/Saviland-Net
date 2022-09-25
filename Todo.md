@@ -1,6 +1,6 @@
 # Saviland Net Todo List
 
-Try keep track.
+Try to keep track.
 
 # The Official Saviland_Net List of ToDos!
 
@@ -8,10 +8,10 @@ Try keep track.
 [√] - Complete the global Navbar. 
 [√] - Setup main space. 
 [√] - Complete base CSS. 
-√√√
-[] - Register Saviland_Net to GitHub.
-[] - Setup the Saviland_Testnet_DB. 
-[] - Connect to Saviland_Testnet_DB.
+
+[√] - Register Saviland_Net to GitHub.
+[√] - Setup the saviland_testnet . 
+[√] - Connect to saviland_testnet to server.
 
 [] - Establish 4 test routes: 
 [] ^ Recieve (GET)

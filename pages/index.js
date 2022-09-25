@@ -46,8 +46,8 @@ class Home extends Component {
   }
 }
 
-const mapStoreToProps = (reduxState) => ({
-  data: reduxState.data
-})
+// const mapStoreToProps = (reduxState) => ({
+//   data: reduxState.data
+// })
 
 export default Home
