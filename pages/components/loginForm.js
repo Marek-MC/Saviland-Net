@@ -81,4 +81,5 @@ class LoginForm extends Component {
 }
 
 
-export default connect(mapStoreToProps) (LoginForm)
+
+export default connect(mapStoreToProps)(LoginForm)
