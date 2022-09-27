@@ -1,18 +1,8 @@
 .navigation {
-    margin: 18px 0px 0px 0px;
+    margin: 18px 36px 0px 0px;
     border: 0px;
     padding: 0px;
     content: 0px;
-
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-
-.navigation header {
-    color: aqua;
-    padding: 0px 56px 0px 0px;
-    text-decoration: none;
 }
 
 .navigation ul {
@@ -21,8 +11,8 @@
 }
 
 .navigation li {
-    color: aqua;
-    display: inline-block;
+    color: darkorange;
+    display: inline;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -33,6 +23,3 @@
     color: crimson;
 }
 
-.navigation header:hover {
-    color: crimson;
-}

@@ -52,7 +52,7 @@ class LoginForm extends Component {
                             value={this.state.username}
                             onChange={this.handleInputChangeFor('username')}
                             placeholder="Username"
-                            autocomplete="off"
+                            
                         />
                     </label>
                 </div>
@@ -66,7 +66,7 @@ class LoginForm extends Component {
                             value={this.state.password}
                             onChange={this.handleInputChangeFor('password')}
                             placeholder="Password"
-                            autocomplete="off"
+                            
                         />
                     </label>
                 </div>

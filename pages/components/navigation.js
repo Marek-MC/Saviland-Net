@@ -8,16 +8,6 @@ class Navigation extends Component {
 
       <div className={styles.navigation}>
 
-
-      
-        <Link href="/">
-          <header id="navbar-title">
-            Saviland Net
-          </header>
-        </Link>
-
-
-
         <nav>
           <ul>
             <li>
@@ -35,8 +25,6 @@ class Navigation extends Component {
           </ul>
         </nav>
 
-
-        
       </div>
     )
   }

@@ -46,7 +46,7 @@ class RegisterForm extends Component {
                             required
                             onChange={this.handleInputChangeFor('username')}
                             placeholder= "Username"
-                            autocomplete="off"
+                            
                         />
                     </label>
                 </div>
@@ -60,7 +60,7 @@ class RegisterForm extends Component {
                             required
                             onChange={this.handleInputChangeFor('password')}
                             placeholder="Password"
-                            autocomplete="off"
+                            
                         />
                     </label>
                 </div>
